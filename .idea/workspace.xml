@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d54b39dc-92e8-41c1-9739-fa56b66c8ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/MathUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/javabrains/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/MathUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,17 +13,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/junitbasics$All_in_Junit5.ic" NAME="All in Junit5 Coverage Results" MODIFIED="1565884475643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="287918492">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="446" />
           <entry key="XML" value="71" />
         </counts>
       </usages-collector>
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="408">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -49,11 +52,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/javabrains/MathUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
                 <element signature="e#85#86#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,12 +69,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/javabrains/MathUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="476">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565882170124" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565895163905" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -214,7 +219,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in Junit5">
+    <configuration name="All in Junit5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -229,9 +242,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathUtilsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.javabrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.javabrains" />
+      <option name="MAIN_CLASS_NAME" value="io.javabrains.MathUtilsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.javabrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.javabrains" />
+      <option name="MAIN_CLASS_NAME" value="io.javabrains.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathUtilsTest.testComputeCircleRadius" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.javabrains.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.javabrains" />
+      <option name="MAIN_CLASS_NAME" value="io.javabrains.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testComputeCircleRadius" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MathUtilsTest" />
+      <item itemvalue="JUnit.MathUtilsTest.test" />
+      <item itemvalue="JUnit.MathUtilsTest.testComputeCircleRadius" />
+      <item itemvalue="JUnit.MathUtilsTest.testAdd" />
+      <item itemvalue="JUnit.All in Junit5" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Junit5" />
         <item itemvalue="JUnit.MathUtilsTest" />
+        <item itemvalue="JUnit.MathUtilsTest.testAdd" />
+        <item itemvalue="JUnit.MathUtilsTest.testComputeCircleRadius" />
+        <item itemvalue="JUnit.MathUtilsTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +317,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565881233506</updated>
-      <workItem from="1565881239480" duration="864000" />
+      <workItem from="1565881239480" duration="4721000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MathUtilsTest - 2019.08.15 at 20h 46m 32s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.15 at 20h 58m 57s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest_test - 2019.08.15 at 20h 59m 18s.xml">
+      <configuration name="MathUtilsTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest_testAdd - 2019.08.15 at 21h 15m 19s.xml">
+      <configuration name="MathUtilsTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.15 at 21h 15m 45s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest_testAdd - 2019.08.15 at 21h 16m 45s.xml">
+      <configuration name="MathUtilsTest.testAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.15 at 21h 16m 52s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Junit5 - 2019.08.15 at 21h 24m 59s.xml">
+      <configuration name="All in Junit5" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="864000" />
+    <option name="totallyTimeSpent" value="4721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -263,18 +361,20 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -294,30 +394,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/javabrains/MathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="221">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="e#85#86#0" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/javabrains/MathUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="476">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
           </folding>
         </state>
       </provider>
